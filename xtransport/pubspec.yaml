@@ -4,7 +4,9 @@ version: 0.0.5
 repository: https://github.com/hkloudou/darts/tree/main/xtransport
 environment:
   sdk: '>=3.1.5 <4.0.0'
-# dependencies: 
+
+dependencies:
+   universal_io: ^2.2.2
 #   web_socket_channel: ^2.2.0
 dev_dependencies:
   lints: ^1.0.0

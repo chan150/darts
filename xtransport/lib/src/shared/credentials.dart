@@ -1,4 +1,4 @@
-import 'dart:io';
+import 'package:universal_io/io.dart';
 
 typedef BadCertificateHandler = bool Function(
     X509Certificate certificate, String host);
